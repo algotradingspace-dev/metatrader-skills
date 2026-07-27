@@ -1,0 +1,8 @@
+{
+  "name": "metatrader-platform",
+  "description": "MetaTrader 4/5 platform operations, Python API integration, and terminal journal monitoring skills.",
+  "version": "0.1.0",
+  "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
+  "homepage": "https://algotradingspace.com",
+  "license": "MIT"
+}

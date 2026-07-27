@@ -1,0 +1,15 @@
+name: Validate Plugin Marketplace
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate marketplace structure
+        run: claude plugin validate .

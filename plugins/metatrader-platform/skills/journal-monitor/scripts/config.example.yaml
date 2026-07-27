@@ -1,0 +1,31 @@
+# MT5 Journal Monitor — example config
+#
+# Copy to monitor.yaml and edit for your setup.
+
+# Paths to scan — files or directories. Directories are globbed for JournalLog-*.log.
+# For Wine MT5 on Linux, journals are typically in:
+#   ~/.wine-mt5/<instance>/drive_c/users/<user>/AppData/Roaming/MetaQuotes/Terminal/<hash>/MQL5/Logs/
+# Sync them to one folder nightly via rsync/cp for easier monitoring.
+paths:
+  - /home/user/mt5-journals/broker-a
+  - /home/user/mt5-journals/broker-b
+  - /home/user/mt5-journals/broker-c
+
+# Only process files from the last N days (filename date, not mtime)
+days: 2
+
+# Human-readable labels per account number
+labels:
+  "ACCOUNT_ID_1": BrokerA
+  "ACCOUNT_ID_2": BrokerB
+  "ACCOUNT_ID_3": BrokerC
+
+# Thresholds (omit to use defaults)
+slow_fill_ms: 100        # pending/market order completion > this = anomaly
+slow_modify_ms: 50       # SL/TP modify > this = anomaly
+fast_sl_seconds: 30      # round-trip close within this = fast-SL-hit anomaly
+
+# Optional Discord-compatible webhook for alerts
+# Triggers when there is any severity=error anomaly, or warn count >= alert_threshold
+webhook: "https://discord.com/api/webhooks/XXX/YYY"
+alert_threshold: 5

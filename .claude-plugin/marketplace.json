@@ -1,0 +1,34 @@
+{
+  "name": "metatrader-skills",
+  "owner": {
+    "name": "Algo Trading Space",
+    "url": "https://algotradingspace.com"
+  },
+  "description": "Claude Code agent skills for MetaTrader/MQL5 development, platform automation, and trading research. Provides structured expertise for building Expert Advisors, managing MT4/MT5 platform operations, and conducting backtest-driven performance analysis.",
+  "plugins": [
+    {
+      "name": "mql5-development",
+      "source": "./plugins/mql5-development",
+      "description": "End-to-end MQL5 Expert Advisor development: EA architecture (5-layer wiring, OnTick, IsNewBar), risk engine (position sizing, drawdown guards, prop firm rules), signal generation (SMC/ICT, indicators, multi-timeframe confluence), market regime detection (trend/range, volatility, session, news filters), and trade lifecycle management (trailing stops, breakeven, partial closes, pyramiding).",
+      "license": "MIT",
+      "category": "trading",
+      "keywords": ["mql5", "expert-advisor", "ea-development", "trading-bot", "risk-management", "market-regime", "signal-generation", "forex", "mt5"]
+    },
+    {
+      "name": "metatrader-platform",
+      "source": "./plugins/metatrader-platform",
+      "description": "MetaTrader 4/5 platform operations, Python API integration, and HTTP API bridge usage. Covers terminal installation and configuration (Windows/macOS/Linux), SSL/certificate management, 2FA/TOTP setup, MetaTrader5 Python package workflows, mt5-httpapi bridge for REST-based account/symbol/trade data, and platform automation scripts.",
+      "license": "MIT",
+      "category": "trading",
+      "keywords": ["metatrader", "mt4", "mt5", "python-api", "http-api", "terminal-setup", "platform-automation", "trading-infrastructure"]
+    },
+    {
+      "name": "metatrader-research",
+      "source": "./plugins/metatrader-research",
+      "description": "Backtesting methodology and trading performance analytics for MetaTrader strategies. Covers MT5 Strategy Tester configuration, walk-forward and Monte Carlo analysis, overfitting detection, performance metric computation (Sharpe, Calmar, Profit Factor, drawdown), Python-based pandas evaluation pipelines, and experiment tracking for EA variants.",
+      "license": "MIT",
+      "category": "trading",
+      "keywords": ["backtesting", "strategy-tester", "performance-analytics", "monte-carlo", "walk-forward", "sharpe-ratio", "drawdown", "python", "pandas", "mt5"]
+    }
+  ]
+}

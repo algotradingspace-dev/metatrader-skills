@@ -1,0 +1,8 @@
+{
+  "name": "mql5-development",
+  "description": "End-to-end MQL5 Expert Advisor development skills covering EA architecture, risk management, signal generation, market regime detection, and trade lifecycle management.",
+  "version": "0.1.0",
+  "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
+  "homepage": "https://algotradingspace.com",
+  "license": "MIT"
+}
