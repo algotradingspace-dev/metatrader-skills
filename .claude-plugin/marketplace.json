@@ -34,7 +34,7 @@
       "name": "mt5-httpapi",
       "source": {
         "source": "git-subdir",
-        "url": "psyb0t/mt5-httpapi",
+        "url": "https://github.com/psyb0t/mt5-httpapi.git",
         "path": ".agents",
         "ref": "master"
       },

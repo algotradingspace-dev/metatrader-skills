@@ -1,5 +1,3 @@
 {
-  "enabledPlugins": {
-    "mt5-httpapi@metatrader-skills": true
-  }
+  "enabledPlugins": {}
 }
