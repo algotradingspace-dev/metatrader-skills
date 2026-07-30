@@ -23,6 +23,7 @@ claude plugin install ./plugins/metatrader-research
 |--------|-------------|
 | [mql5-development](./plugins/mql5-development) | EA architecture, risk engine, signal generation, market regime, trade management |
 | [metatrader-platform](./plugins/metatrader-platform) | MT4/5 platform ops, Python API, journal monitoring |
+| [mt5-httpapi](./plugins/mt5-httpapi) | HTTP API bridge for MetaTrader 5 (git-subdir from psyb0t/mt5-httpapi) |
 | [metatrader-research](./plugins/metatrader-research) | Backtest methodology, performance analytics, experiment tracking |
 
 ## Adding skills

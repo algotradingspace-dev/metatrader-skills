@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1] - 2026-07-30
+
+### Fixed
+- **.claude-plugin/marketplace.json**: use full git URL for mt5-httpapi
+  subdir source (Claude Code requires `https://` not `owner/repo` shorthand)
+- **.claude/settings.json**: remove stale `enabledPlugins` block
+
 ## [0.2.0] - 2026-07-30
 
 ### Added
