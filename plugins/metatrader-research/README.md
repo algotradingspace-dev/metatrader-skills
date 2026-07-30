@@ -7,6 +7,7 @@ on MetaTrader strategies.
 
 - **Backtest Analysis** — MT5 Strategy Tester, walk-forward, Monte Carlo
 - **Performance Analytics** — pandas evaluation, Sharpe/Calmar/Profit Factor
+- **Imported Backtest** — MT5 HTML report import, parser, equity reconstruction
 - **Experiment Tracking** — EA variant comparison, scorecards, reports
 
 ## Usage

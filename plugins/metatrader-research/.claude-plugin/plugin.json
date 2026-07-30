@@ -1,6 +1,6 @@
 {
   "name": "metatrader-research",
-  "description": "Backtesting methodology, performance analytics, and experiment management for MetaTrader strategy research.",
+  "description": "Backtesting methodology, performance analytics, imported-backtest HTML report parsing, and experiment management for MetaTrader strategy research.",
   "version": "0.1.0",
   "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
   "homepage": "https://algotradingspace.com",

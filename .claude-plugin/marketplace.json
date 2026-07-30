@@ -25,10 +25,23 @@
     {
       "name": "metatrader-research",
       "source": "./plugins/metatrader-research",
-      "description": "Backtesting methodology and trading performance analytics for MetaTrader strategies. Covers MT5 Strategy Tester configuration, walk-forward and Monte Carlo analysis, overfitting detection, performance metric computation (Sharpe, Calmar, Profit Factor, drawdown), Python-based pandas evaluation pipelines, and experiment tracking for EA variants.",
+      "description": "Backtesting methodology and trading performance analytics for MetaTrader strategies. Covers MT5 Strategy Tester configuration, walk-forward and Monte Carlo analysis, overfitting detection, performance metric computation (Sharpe, Calmar, Profit Factor, drawdown), Python-based pandas evaluation pipelines, imported HTML report parsing, and experiment tracking for EA variants.",
       "license": "MIT",
       "category": "trading",
       "keywords": ["backtesting", "strategy-tester", "performance-analytics", "monte-carlo", "walk-forward", "sharpe-ratio", "drawdown", "python", "pandas", "mt5"]
+    },
+    {
+      "name": "mt5-httpapi",
+      "source": {
+        "source": "git-subdir",
+        "url": "psyb0t/mt5-httpapi",
+        "path": ".agents",
+        "ref": "master"
+      },
+      "description": "MetaTrader 5 trading via REST for a running mt5-httpapi bridge — market data, orders, positions, history, and server-side technical analysis.",
+      "license": "WTFPL",
+      "category": "trading",
+      "keywords": ["metatrader", "mt5", "trading", "rest-api", "forex"]
     }
   ]
 }

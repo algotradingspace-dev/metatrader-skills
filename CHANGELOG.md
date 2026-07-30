@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0] - 2026-07-30
+
+### Added
+- **mt5-httpapi** plugin — REST API bridge for MetaTrader 5 trading,
+  sourced via git-subdir from psyb0t/mt5-httpapi (no vendoring)
+- **metatrader-research** plugin — imported-backtest skill for MT5 HTML
+  report parsing and equity reconstruction from uploaded reports
+
+### Changed
+- **metatrader-research** description updated to include imported-backtest
+
 ## [0.1.1] - 2026-07-28
 
 ### Fixed
