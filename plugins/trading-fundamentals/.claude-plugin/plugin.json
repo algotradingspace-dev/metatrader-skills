@@ -1,0 +1,8 @@
+{
+  "name": "trading-fundamentals",
+  "description": "Macroeconomic fundamentals reference for FX trading. Interprets CPI, GDP, NFP, PMI, rate decisions, employment, trade balance, confidence, and survey releases across USD, EUR, GBP, GER, JPY, CAD, AUD, NZD, CHF, and CNY, with per-currency trading context and high-value release ranking.",
+  "version": "0.1.0",
+  "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
+  "homepage": "https://algotradingspace.com",
+  "license": "MIT"
+}

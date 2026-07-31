@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0] - 2026-07-31
+
+### Added
+- **trading-fundamentals** plugin — forex-fundamentals-reference skill for
+  interpreting macro releases (CPI, GDP, NFP, PMI, rate decisions, etc.)
+  across USD, EUR, GBP, GER, JPY, CAD, AUD, NZD, CHF, CNY
+
 ## [0.2.1] - 2026-07-30
 
 ### Fixed

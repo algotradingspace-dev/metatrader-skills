@@ -15,6 +15,7 @@ claude plugin install . --all
 claude plugin install ./plugins/mql5-development
 claude plugin install ./plugins/metatrader-platform
 claude plugin install ./plugins/metatrader-research
+claude plugin install ./plugins/trading-fundamentals
 ```
 
 ## Available plugins
@@ -25,6 +26,7 @@ claude plugin install ./plugins/metatrader-research
 | [metatrader-platform](./plugins/metatrader-platform) | MT4/5 platform ops, Python API, journal monitoring |
 | [mt5-httpapi](./plugins/mt5-httpapi) | HTTP API bridge for MetaTrader 5 (git-subdir from psyb0t/mt5-httpapi) |
 | [metatrader-research](./plugins/metatrader-research) | Backtest methodology, performance analytics, experiment tracking |
+| [trading-fundamentals](./plugins/trading-fundamentals) | Forex macro fundamentals reference (CPI, NFP, GDP, PMI, rate decisions) |
 
 ## Adding skills
 

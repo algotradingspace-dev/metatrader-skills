@@ -42,6 +42,14 @@
       "license": "WTFPL",
       "category": "trading",
       "keywords": ["metatrader", "mt5", "trading", "rest-api", "forex"]
+    },
+    {
+      "name": "trading-fundamentals",
+      "source": "./plugins/trading-fundamentals",
+      "description": "Forex macroeconomic fundamentals reference. Interprets CPI, GDP, NFP, PMI, rate decisions, employment, trade balance, current account, housing, wages, and confidence/survey releases across USD, EUR, GBP, GER, JPY, CAD, AUD, NZD, CHF, and CNY, with trading context and high-value release ranking per currency.",
+      "license": "MIT",
+      "category": "trading",
+      "keywords": ["forex", "fundamentals", "macro", "nfp", "cpi", "gdp", "pmi", "rate-decisions", "economic-calendar", "usd", "eur", "gbp", "jpy", "cad", "aud", "nzd", "chf", "cny"]
     }
   ]
 }
