@@ -50,6 +50,14 @@
       "license": "MIT",
       "category": "trading",
       "keywords": ["forex", "fundamentals", "macro", "nfp", "cpi", "gdp", "pmi", "rate-decisions", "economic-calendar", "usd", "eur", "gbp", "jpy", "cad", "aud", "nzd", "chf", "cny"]
+    },
+    {
+      "name": "trading-web-systems",
+      "source": "./plugins/trading-web-systems",
+      "description": "Elite TypeScript/React fintech and trading systems engineering: decimal-safe money arithmetic, trading metric implementations (Sharpe, Calmar, Drawdown, Profit Factor), real-time WebSocket market data feeds on Cloudflare Durable Objects, live-price React hooks, trading dashboard UI (PriceTicker, OrderBook), and OHLCV ingestion pipelines.",
+      "license": "MIT",
+      "category": "trading",
+      "keywords": ["fintech", "typescript", "react", "trading-dashboard", "websocket", "market-data", "order-book", "ohlcv", "sharpe-ratio", "profit-factor", "decimal", "cloudflare", "durable-objects"]
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "name": "trading-web-systems",
+  "description": "Elite TypeScript/React fintech and trading systems engineering: decimal-safe money arithmetic, trading metric implementations (Sharpe, Calmar, Drawdown, Profit Factor), real-time WebSocket market data feeds on Cloudflare Durable Objects, live-price React hooks, trading dashboard UI (PriceTicker, OrderBook), and OHLCV ingestion pipelines.",
+  "version": "0.1.0",
+  "author": { "name": "Algo Trading Space", "url": "https://algotradingspace.com" },
+  "homepage": "https://algotradingspace.com",
+  "license": "MIT"
+}

@@ -6,6 +6,9 @@
 - **trading-fundamentals** plugin — forex-fundamentals-reference skill for
   interpreting macro releases (CPI, GDP, NFP, PMI, rate decisions, etc.)
   across USD, EUR, GBP, GER, JPY, CAD, AUD, NZD, CHF, CNY
+- **trading-web-systems** plugin — fintech-web-systems skill for
+  TypeScript/React trading infrastructure (decimal-safe arithmetic, trading
+  metrics, WebSocket market data, OHLCV ingestion)
 
 ## [0.2.1] - 2026-07-30
 
