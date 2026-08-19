@@ -1,0 +1,9 @@
+{
+  "name": "mql-developer",
+  "description": "Comprehensive MQL4/MQL5 development reference for MetaTrader 4 and 5: language syntax for both dialects, OOP and EA architecture patterns, order/position and risk operations, custom indicators and UI panels, WebRequest/REST/JSON external communication, Strategy Tester and walk-forward backtesting, code protection and licensing, and MQL4-to-MQL5 migration. Vendored from ThomasPraun/mql-developer.",
+  "version": "0.1.0",
+  "author": { "name": "Thomas Praun", "url": "https://github.com/ThomasPraun" },
+  "homepage": "https://github.com/ThomasPraun/mql-developer",
+  "repository": "https://github.com/ThomasPraun/mql-developer",
+  "license": "MIT"
+}

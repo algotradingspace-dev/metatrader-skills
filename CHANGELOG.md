@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.4.0] - 2026-08-19
+
+### Added
+- **mql-developer** plugin — MQL4/MQL5 language and API reference vendored
+  verbatim from [ThomasPraun/mql-developer](https://github.com/ThomasPraun/mql-developer)
+  (MIT), pinned at `3b5e358`. First plugin here covering MQL4 and
+  MQL4→MQL5 migration. Vendored rather than sourced via `git-subdir`
+  because upstream publishes a bare skill at its repo root, with no
+  plugin layout for a subdir source to target.
+- `UPSTREAM.json` — manifest of vendored third-party sources (URL, ref,
+  pinned commit, license, file mapping)
+- `scripts/sync-upstream.mjs` — dependency-free drift check (`check`) and
+  re-vendor (`apply`) for every source in the manifest
+- **Upstream Sync** workflow — weekly and on-demand drift check that
+  re-vendors, validates the marketplace, and opens a review PR when
+  upstream moves
+
 ## [0.3.0] - 2026-07-31
 
 ### Added

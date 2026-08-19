@@ -1,0 +1,27 @@
+{
+  "$comment": "Vendored third-party sources. Run `node scripts/sync-upstream.mjs check` to detect drift, `apply` to re-vendor. Never hand-edit vendored files -- edits are overwritten on sync and break drift detection.",
+  "sources": [
+    {
+      "plugin": "mql-developer",
+      "url": "https://github.com/ThomasPraun/mql-developer.git",
+      "ref": "main",
+      "commit": "3b5e35882ce397ac97ea16bb50464ea684d9837a",
+      "license": "MIT",
+      "vendoredAt": "2026-08-19",
+      "map": [
+        {
+          "from": "SKILL.md",
+          "to": "plugins/mql-developer/skills/mql-developer/SKILL.md"
+        },
+        {
+          "from": "references",
+          "to": "plugins/mql-developer/skills/mql-developer/references"
+        },
+        {
+          "from": "LICENSE",
+          "to": "plugins/mql-developer/LICENSE"
+        }
+      ]
+    }
+  ]
+}

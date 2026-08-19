@@ -44,6 +44,14 @@
       "keywords": ["metatrader", "mt5", "trading", "rest-api", "forex"]
     },
     {
+      "name": "mql-developer",
+      "source": "./plugins/mql-developer",
+      "description": "Comprehensive MQL4/MQL5 development reference for MetaTrader 4 and 5: language syntax for both dialects, OOP and EA architecture patterns, order/position and risk operations, custom indicators and UI panels, WebRequest/REST/JSON external communication, Strategy Tester and walk-forward backtesting, code protection and licensing, and MQL4-to-MQL5 migration. Vendored verbatim from ThomasPraun/mql-developer.",
+      "license": "MIT",
+      "category": "trading",
+      "keywords": ["mql4", "mql5", "metatrader", "expert-advisor", "indicators", "mql-migration", "webrequest", "backtesting", "licensing", "third-party"]
+    },
+    {
       "name": "trading-fundamentals",
       "source": "./plugins/trading-fundamentals",
       "description": "Forex macroeconomic fundamentals reference. Interprets CPI, GDP, NFP, PMI, rate decisions, employment, trade balance, current account, housing, wages, and confidence/survey releases across USD, EUR, GBP, GER, JPY, CAD, AUD, NZD, CHF, and CNY, with trading context and high-value release ranking per currency.",

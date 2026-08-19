@@ -1,0 +1,66 @@
+name: Upstream Sync
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check vendored sources for drift
+        id: drift
+        run: |
+          if node scripts/sync-upstream.mjs check > "$RUNNER_TEMP/drift.log" 2>&1; then
+            echo "drifted=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "drifted=true" >> "$GITHUB_OUTPUT"
+          fi
+          cat "$RUNNER_TEMP/drift.log"
+          {
+            echo '## Upstream drift report'
+            echo '```'
+            cat "$RUNNER_TEMP/drift.log"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Re-vendor upstream changes
+        if: steps.drift.outputs.drifted == 'true'
+        run: node scripts/sync-upstream.mjs apply
+
+      - name: Validate marketplace after sync
+        if: steps.drift.outputs.drifted == 'true'
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude plugin validate .
+
+      - name: Open or update sync pull request
+        if: steps.drift.outputs.drifted == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B chore/upstream-sync
+          git add -A
+          git commit -m "chore(vendor): sync vendored skills with upstream"
+          git push --force origin chore/upstream-sync
+          if [ -z "$(gh pr list --head chore/upstream-sync --state open --json number --jq '.[].number')" ]; then
+            gh pr create \
+              --title "chore(vendor): sync vendored skills with upstream" \
+              --body "$(printf 'Automated re-vendor from the sources pinned in `UPSTREAM.json`.\n\n```\n%s\n```\n\nReview the diff against the upstream project before merging.\n' "$(cat "$RUNNER_TEMP/drift.log")")" \
+              --base main \
+              --head chore/upstream-sync
+          fi

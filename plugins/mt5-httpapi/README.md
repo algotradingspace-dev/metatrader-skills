@@ -1,9 +1,14 @@
 # mt5-httpapi
 
-Not vendored here — this entry pulls directly from the `.agents/`
-folder of the upstream repo via a git-subdir source:
+Agent skill for MetaTrader 5 trading via the mt5-httpapi REST bridge —
+market data, orders, positions, history, and server-side technical analysis.
 
-https://github.com/psyb0t/mt5-httpapi/tree/master/.agents
+Sourced via git-subdir from psyb0t/mt5-httpapi's `.agents/` folder.
 
-To change what installs, edit upstream (or fork mt5-httpapi and
-repoint `url` in marketplace.json) — not this file.
+## Usage
+
+```bash
+claude plugin install mt5-httpapi@metatrader-skills
+```
+
+Then reference the skill in your prompts (e.g. "use mt5-httpapi").
