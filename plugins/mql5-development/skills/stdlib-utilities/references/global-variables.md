@@ -3,6 +3,8 @@
 Terminal global variables are the lightweight persistence mechanism shared
 across programs and restarts on the same terminal installation.
 
+> Canonical MQL5 reference: [GlobalVariableSet](https://www.mql5.com/en/docs/globals/globalvariableset) · [GlobalVariableGet](https://www.mql5.com/en/docs/globals/globalvariableget) · [GlobalVariableCheck](https://www.mql5.com/en/docs/globals/globalvariablecheck) · [GlobalVariableDel](https://www.mql5.com/en/docs/globals/globalvariabledel)
+
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
 | `GlobalVariableSet`, `GlobalVariableGet`, `GlobalVariableCheck`, `GlobalVariableDel` | Basic CRUD | Use for small cross-session flags and counters, not large datasets |

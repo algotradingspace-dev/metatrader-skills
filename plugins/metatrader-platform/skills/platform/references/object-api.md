@@ -18,6 +18,8 @@ on charts. Distinct from the `constants` skill which holds
 
 ## Object Property Get/Set
 
+> Canonical MQL5 reference: [ObjectGetInteger](https://www.mql5.com/en/docs/objects/objectgetinteger) · [ObjectGetDouble](https://www.mql5.com/en/docs/objects/objectgetdouble) · [ObjectGetString](https://www.mql5.com/en/docs/objects/objectgetstring) · [ObjectSetInteger](https://www.mql5.com/en/docs/objects/objectsetinteger)
+
 | Function | Signature | Purpose |
 |----------|-----------|---------|
 | `ObjectGetInteger` | `ObjectGetInteger(long chart_id, string name, ENUM_OBJECT_PROPERTY_INTEGER prop_id, int modifier=0)` | Read integer/bool/color/datetime property |
@@ -34,6 +36,8 @@ reference parameter) follow the same pattern as `ChartGetInteger`.
 
 ## Object Discovery and Positioning
 
+> Canonical MQL5 reference: [ObjectFind](https://www.mql5.com/en/docs/objects/objectfind) · [ObjectName](https://www.mql5.com/en/docs/objects/objectname) · [ObjectsTotal](https://www.mql5.com/en/docs/objects/objectstotal) · [ObjectMove](https://www.mql5.com/en/docs/objects/objectmove)
+
 | Function | Signature | Returns | Purpose |
 |----------|-----------|---------|---------|
 | `ObjectFind` | `ObjectFind(long chart_id, string name)` | `int` | Returns subwindow index of the named object, or -1 if not found |
@@ -46,6 +50,8 @@ reference parameter) follow the same pattern as `ChartGetInteger`.
 ---
 
 ## Text Rendering to Chart Pixel Context
+
+> Canonical MQL5 reference: [TextSetFont](https://www.mql5.com/en/docs/objects/textsetfont) · [TextOut](https://www.mql5.com/en/docs/objects/textout) · [TextGetSize](https://www.mql5.com/en/docs/objects/textgetsize)
 
 | Function | Signature | Purpose |
 |----------|-----------|---------|

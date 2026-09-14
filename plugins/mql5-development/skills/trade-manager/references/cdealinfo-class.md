@@ -2,6 +2,8 @@
 
 `CDealInfo` is the read-only wrapper for filled deal history.
 
+> Canonical MQL5 reference: [HistorySelect](https://www.mql5.com/en/docs/trading/historyselect) · [TimeMsc](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/cdealinfo/cdealinfotimemsc) · [DealType](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/cdealinfo/cdealinfodealtype) · [ENUM_DEAL_TYPE](https://www.mql5.com/en/docs/constants/tradingconstants/dealproperties#enum_deal_type)
+
 | Method | Return Type | Brief purpose | One-line usage note |
 |--------|------------|---------------|---------------------|
 | `Ticket` | `ulong` | Get deal ticket or select it | Use after `HistorySelect()` has loaded the target range |

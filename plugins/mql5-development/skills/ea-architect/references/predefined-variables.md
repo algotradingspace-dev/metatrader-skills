@@ -7,6 +7,8 @@ starts. The one exception: `_LastError` can be reset via `ResetLastError()`.
 
 ## Reference Table
 
+> Canonical MQL5 reference: [ENUM_TIMEFRAMES](https://www.mql5.com/en/docs/constants/chartconstants/enum_timeframes) · [GetLastError](https://www.mql5.com/en/docs/check/getlasterror) · [ResetLastError](https://www.mql5.com/en/docs/common/resetlasterror) · [IsStopped](https://www.mql5.com/en/docs/check/isstopped)
+
 | Variable | Type | Equivalent function | Notes |
 |----------|------|-------------------|-------|
 | `_Symbol` | `string` | `Symbol()` | Current chart symbol name |

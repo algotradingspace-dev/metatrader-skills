@@ -10,6 +10,8 @@ test, not a signal or trade decision framework.
 
 ## Custom-Symbol Lifecycle
 
+> Canonical MQL5 reference: [CustomSymbolCreate](https://www.mql5.com/en/docs/customsymbols/customsymbolcreate) · [CustomSymbolSetInteger](https://www.mql5.com/en/docs/customsymbols/customsymbolsetinteger) · [CustomRatesUpdate](https://www.mql5.com/en/docs/customsymbols/customratesupdate) · [CustomRatesReplace](https://www.mql5.com/en/docs/customsymbols/customratesreplace)
+
 | Topic | Practical rule |
 |-------|----------------|
 | Creation | `CustomSymbolCreate()` creates a symbol under the Custom tree and can clone a broker symbol as the initial property baseline |

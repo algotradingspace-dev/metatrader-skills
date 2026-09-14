@@ -2,6 +2,8 @@
 
 ## ENUM_CHART_EVENT — `OnChartEvent(id, lparam, dparam, sparam)`
 
+> Canonical MQL5 reference: [CHARTEVENT_MOUSE_MOVE](https://www.mql5.com/en/docs/constants/chartconstants/enum_chartevents) · [CHART_EVENT_MOUSE_MOVE](https://www.mql5.com/en/docs/constants/chartconstants/charts_samples#chart_event_mouse_move) · [CHART_EVENT_MOUSE_WHEEL](https://www.mql5.com/en/docs/constants/chartconstants/enum_chart_property#enum_chart_property_integer) · [CHART_EVENT_OBJECT_CREATE](https://www.mql5.com/en/docs/constants/chartconstants/charts_samples#chart_event_object_create)
+
 | Value | Description |
 |-------|-------------|
 | `CHARTEVENT_KEYDOWN` | Key pressed |
@@ -39,6 +41,8 @@
 | `CHART_END` | Newest prices (chart end) |
 
 ## Key ENUM_CHART_PROPERTY_INTEGER Identifiers
+
+> Canonical MQL5 reference: [CHART_MODE](https://www.mql5.com/en/docs/constants/chartconstants/charts_samples#chart_mode) · [ENUM_CHART_MODE](https://www.mql5.com/en/docs/constants/chartconstants/chart_view#enum_chart_mode) · [CHART_SCALE](https://www.mql5.com/en/docs/constants/chartconstants/charts_samples#chart_scale) · [CHART_AUTOSCROLL](https://www.mql5.com/en/docs/constants/chartconstants/charts_samples#chart_autoscroll)
 
 | Identifier | Description |
 |------------|-------------|

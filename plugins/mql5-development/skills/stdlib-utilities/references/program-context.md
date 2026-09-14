@@ -2,6 +2,8 @@
 
 ## ENUM_MQL_INFO_INTEGER — `MQLInfoInteger(id)`
 
+> Canonical MQL5 reference: [ENUM_PROGRAM_TYPE](https://www.mql5.com/en/docs/constants/environment_state/mql5_programm_info#enum_program_type) · [MQL_TRADE_ALLOWED](https://www.mql5.com/en/docs/img/mql_trade_allowed.png) · [MQL_TESTER](https://www.mql5.com/en/docs/constants/environment_state/mql5_programm_info#enum_mql_info_integer) · [ENUM_LICENSE_TYPE](https://www.mql5.com/en/docs/constants/environment_state/mql5_programm_info#enum_license_type)
+
 | Identifier | Description | Type |
 |------------|-------------|------|
 | `MQL_HANDLES_USED` | Active object handle count | int |
@@ -54,6 +56,8 @@ struct MqlDateTime {
 > `MQL_FRAME_MODE` is true during the optimization result collection phase (`OnTesterPass`).
 
 ## Runtime Context Checks
+
+> Canonical MQL5 reference: [TerminalInfoInteger](https://www.mql5.com/en/docs/check/terminalinfointeger) · [TerminalInfoDouble](https://www.mql5.com/en/docs/check/terminalinfodouble) · [TerminalInfoString](https://www.mql5.com/en/docs/check/terminalinfostring) · [IsStopped](https://www.mql5.com/en/docs/check/isstopped)
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|

@@ -3,6 +3,8 @@
 `CPositionInfo` is the read-only wrapper for currently open position state,
 selection helpers, and snapshot comparison.
 
+> Canonical MQL5 reference: [TimeMsc](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/cdealinfo/cdealinfotimemsc) · [TimeUpdate](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/cpositioninfo/cpositioninfotimeupdate) · [TimeUpdateMsc](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/cpositioninfo/cpositioninfotimeupdatemsc) · [PositionType](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/cpositioninfo/cpositioninfopositiontype)
+
 | Method | Return Type | Brief purpose | One-line usage note |
 |--------|------------|---------------|---------------------|
 | `Time` | `datetime` | Get position open time | Use for session-based holding-period rules |

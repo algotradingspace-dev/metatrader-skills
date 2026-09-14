@@ -10,6 +10,8 @@ string AccountInfoString(ENUM_ACCOUNT_INFO_STRING property_id);
 
 ## Type Expectations
 
+> Canonical MQL5 reference: [AccountInfoInteger](https://www.mql5.com/en/docs/account/accountinfointeger) · [AccountInfoDouble](https://www.mql5.com/en/docs/account/accountinfodouble) · [AccountInfoString](https://www.mql5.com/en/docs/account/accountinfostring)
+
 | Function | Returns | Typical property families |
 |----------|---------|--------------------------|
 | `AccountInfoInteger()` | `long` | login, leverage, trade flags, margin mode, trade mode |

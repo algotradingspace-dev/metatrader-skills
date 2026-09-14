@@ -4,6 +4,8 @@
 management, and introspection of the last request, check result, and
 execution result.
 
+> Canonical MQL5 reference: [LogLevel](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/ctrade/ctradeloglevel) · [SetExpertMagicNumber](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/ctrade/ctradesetexpertmagicnumber) · [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit) · [SetDeviationInPoints](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/ctrade/ctradesetdeviationinpoints)
+
 | Method | Return Type | Brief purpose | One-line usage note |
 |--------|------------|---------------|---------------------|
 | `LogLevel` | `void` | Set wrapper logging verbosity | Lower noise in production; raise it when diagnosing rejected requests |

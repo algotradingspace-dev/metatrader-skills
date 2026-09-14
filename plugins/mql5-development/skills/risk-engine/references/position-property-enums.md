@@ -2,6 +2,8 @@
 
 ## ENUM_POSITION_PROPERTY_INTEGER — `PositionGetInteger()`
 
+> Canonical MQL5 reference: [POSITION_TICKET](https://www.mql5.com/en/docs/constants/tradingconstants/positionproperties#enum_position_property_integer) · [ENUM_POSITION_TYPE](https://www.mql5.com/en/docs/constants/tradingconstants/positionproperties#enum_position_type) · [ENUM_POSITION_REASON](https://www.mql5.com/en/docs/constants/tradingconstants/positionproperties#enum_position_reason)
+
 | Identifier | Description | Type |
 |------------|-------------|------|
 | `POSITION_TICKET` | Unique position ticket | long |

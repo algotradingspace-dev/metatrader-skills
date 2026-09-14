@@ -2,6 +2,8 @@
 
 ## Key ENUM_SYMBOL_INFO_INTEGER Properties
 
+> Canonical MQL5 reference: [SYMBOL_TICKS_BOOKDEPTH](https://www.mql5.com/en/docs/constants/environment_state/marketinfoconstants#enum_symbol_info_integer) · [SYMBOL_TRADE_CALC_MODE](https://www.mql5.com/en/docs/constants/environment_state/marketinfoconstants#enum_symbol_calc_mode) · [ENUM_SYMBOL_TRADE_MODE](https://www.mql5.com/en/docs/constants/environment_state/marketinfoconstants#enum_symbol_trade_mode) · [SYMBOL_TRADE_EXEMODE](https://www.mql5.com/en/docs/constants/environment_state/marketinfoconstants#enum_symbol_trade_execution)
+
 | Identifier | Description | Type |
 |------------|-------------|------|
 | `SYMBOL_SELECT` | Symbol selected in Market Watch | bool |

@@ -2,6 +2,8 @@
 
 ## Timer Functions
 
+> Canonical MQL5 reference: [EventSetTimer](https://www.mql5.com/en/docs/eventfunctions/eventsettimer) · [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit) · [EventSetMillisecondTimer](https://www.mql5.com/en/docs/eventfunctions/eventsetmillisecondtimer) · [EventKillTimer](https://www.mql5.com/en/docs/eventfunctions/eventkilltimer)
+
 | Function | Return | Description |
 |----------|--------|-------------|
 | `EventSetTimer(int seconds)` | `bool` | Registers a periodic timer; call in `OnInit()` |

@@ -84,6 +84,8 @@ if(OrderSelect(ticket)) { ... }
 
 ## ENUM_ORDER_PROPERTY_INTEGER
 
+> Canonical MQL5 reference: [ORDER_TICKET](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_property_integer) · [ORDER_MAGIC](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties)
+
 | Constant | Meaning |
 |----------|---------|
 | `ORDER_TICKET` | order ticket |

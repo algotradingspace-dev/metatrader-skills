@@ -2,6 +2,8 @@
 
 ## File Opening Flags (bitmask — combine with `|`)
 
+> Canonical MQL5 reference: [FILE_READ](https://www.mql5.com/en/docs/constants/io_constants/fileflags) · [FileCopy](https://www.mql5.com/en/docs/files/filecopy) · [FileMove](https://www.mql5.com/en/docs/files/filemove) · [FILE_COMMON](https://www.mql5.com/en/docs/constants/io_constants)
+
 | Identifier | Value | Description |
 |------------|-------|-------------|
 | `FILE_READ` | 1 | Open for reading |

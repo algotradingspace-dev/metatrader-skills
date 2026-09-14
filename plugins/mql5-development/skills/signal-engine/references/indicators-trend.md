@@ -6,6 +6,8 @@ Use the generic lifecycle: create handle, guard `INVALID_HANDLE`, wait for
 
 ## Core Trend/Volatility Signatures and Buffer Maps
 
+> Canonical MQL5 reference: [iMA](https://www.mql5.com/en/docs/indicators/ima) · [iAMA](https://www.mql5.com/en/docs/indicators/iama) · [iDEMA](https://www.mql5.com/en/docs/indicators/idema) · [iFrAMA](https://www.mql5.com/en/docs/indicators/iframa)
+
 | Indicator | Signature skeleton | Buffers | Implementation note |
 |-----------|-------------------|---------|---------------------|
 | `iMA` | `iMA(symbol, period, ma_period, ma_shift, ma_method, applied_price)` | `0` | `applied_price` can be a price enum or another indicator handle |

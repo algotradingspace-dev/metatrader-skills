@@ -2,6 +2,8 @@
 
 ## Numeric and Text Conversions
 
+> Canonical MQL5 reference: [DoubleToString](https://www.mql5.com/en/docs/convert/doubletostring) · [IntegerToString](https://www.mql5.com/en/docs/convert/integertostring) · [ShortToString](https://www.mql5.com/en/docs/convert/shorttostring) · [CharToString](https://www.mql5.com/en/docs/convert/chartostring)
+
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
 | `DoubleToString`, `IntegerToString`, `ShortToString`, `CharToString` | Primitive-to-string rendering | Use when logs or exported values need explicit formatting control |
@@ -9,6 +11,8 @@
 | `NormalizeDouble`, `StringFormat`, `EnumToString` | Formatting and stable presentation | `StringFormat` is the main structured logging helper |
 
 ## Colors, Time Rendering, and Struct Serialization
+
+> Canonical MQL5 reference: [ColorToString](https://www.mql5.com/en/docs/convert/colortostring) · [ColorToARGB](https://www.mql5.com/en/docs/convert/colortoargb) · [StringToColor](https://www.mql5.com/en/docs/convert/stringtocolor) · [StringToTime](https://www.mql5.com/en/docs/convert/stringtotime)
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|

@@ -2,6 +2,8 @@
 
 ## ENUM_OBJECT_PROPERTY_INTEGER — `ObjectSetInteger()` / `ObjectGetInteger()`
 
+> Canonical MQL5 reference: [OBJPROP_COLOR](https://www.mql5.com/en/docs/constants/objectconstants/enum_object_property#enum_object_property_integer) · [CHARTEVENT_CLICK](https://www.mql5.com/en/docs/constants/chartconstants/enum_chartevents) · [OBJPROP_CORNER](https://www.mql5.com/en/docs/constants/objectconstants/enum_object_property)
+
 | Identifier | Type | Description |
 |------------|------|-------------|
 | `OBJPROP_COLOR` | color | Object color |
@@ -52,6 +54,8 @@
 
 ## ENUM_OBJECT_PROPERTY_DOUBLE — `ObjectSetDouble()` / `ObjectGetDouble()`
 
+> Canonical MQL5 reference: [OBJPROP_SCALE](https://www.mql5.com/en/docs/constants/objectconstants/enum_object_property#enum_object_property_double) · [EMPTY_VALUE](https://www.mql5.com/en/docs/constants/namedconstants/otherconstants)
+
 | Identifier | Description |
 |------------|-------------|
 | `OBJPROP_PRICE` | Price coordinate (modifier = anchor index) |
@@ -61,6 +65,8 @@
 | `OBJPROP_DEVIATION` | Deviation for Standard Deviation Channel |
 
 ## ENUM_OBJECT_PROPERTY_STRING — `ObjectSetString()` / `ObjectGetString()`
+
+> Canonical MQL5 reference: [OBJPROP_TEXT](https://www.mql5.com/en/docs/constants/objectconstants/enum_object_property#enum_object_property_double) · [OBJPROP_FONT](https://www.mql5.com/en/docs/constants/objectconstants/enum_object_property#enum_object_property_string) · [OBJPROP_BMPFILE](https://www.mql5.com/en/docs/constants/objectconstants/enum_object_property#enum_object_property_integer)
 
 | Identifier | Description |
 |------------|-------------|

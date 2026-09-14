@@ -2,6 +2,8 @@
 
 ## ENUM_INDICATOR — Used with `IndicatorCreate(sym, tf, type, params[])`
 
+> Canonical MQL5 reference: [IND_AC](https://www.mql5.com/en/docs/constants/indicatorconstants/enum_indicator)
+
 | Value | Indicator | Value | Indicator |
 |-------|-----------|-------|-----------|
 | `IND_AC` | Accelerator Oscillator | `IND_MA` | Moving Average |
@@ -42,6 +44,8 @@
 
 ## ENUM_DRAW_TYPE — Custom Indicator Drawing Style
 
+> Canonical MQL5 reference: [DRAW_NONE](https://www.mql5.com/en/docs/customind/indicators_examples/draw_none) · [DRAW_LINE](https://www.mql5.com/en/docs/customind/indicators_examples/draw_line) · [DRAW_SECTION](https://www.mql5.com/en/docs/customind/indicators_examples/draw_section) · [DRAW_HISTOGRAM](https://www.mql5.com/en/docs/customind/indicators_examples/draw_histogram)
+
 | Value | Data bufs | Description |
 |-------|-----------|-------------|
 | `DRAW_NONE` | 1 | Not drawn |
@@ -65,6 +69,8 @@
 > `+1` = additional colour index buffer required after data buffers.
 
 ## ENUM_INDEXBUFFER_TYPE — `SetIndexBuffer(index, buffer[], type)`
+
+> Canonical MQL5 reference: [INDICATOR_DATA](https://www.mql5.com/en/docs/constants/indicatorconstants/customindicatorproperties#enum_indexbuffer_type_enum)
 
 | Value | Description |
 |-------|-------------|

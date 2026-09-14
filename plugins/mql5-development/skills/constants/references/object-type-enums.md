@@ -4,6 +4,8 @@
 
 44 graphical object types:
 
+> Canonical MQL5 reference: [OBJ_VLINE](https://www.mql5.com/en/docs/constants/objectconstants/enum_object/obj_vline) · [OBJ_HLINE](https://www.mql5.com/en/docs/constants/objectconstants/enum_object/obj_hline) · [OBJ_TREND](https://www.mql5.com/en/docs/constants/objectconstants/enum_object/obj_trend) · [OBJ_TRENDBYANGLE](https://www.mql5.com/en/docs/constants/objectconstants/enum_object/obj_trendbyangle)
+
 | ID | Description |
 |----|-------------|
 | `OBJ_VLINE` | Vertical Line |

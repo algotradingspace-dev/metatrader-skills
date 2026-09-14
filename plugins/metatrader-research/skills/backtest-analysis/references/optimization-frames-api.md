@@ -19,6 +19,8 @@ TesterPass event fires each time a frame arrives from any agent.
 
 ## Complete Function Reference
 
+> Canonical MQL5 reference: [FrameAdd](https://www.mql5.com/en/docs/optimization_frames/frameadd) · [FrameFirst](https://www.mql5.com/en/docs/optimization_frames/framefirst) · [FrameFilter](https://www.mql5.com/en/docs/optimization_frames/framefilter) · [FrameNext](https://www.mql5.com/en/docs/optimization_frames/framenext)
+
 | Function | Call context | Returns |
 |----------|-------------|---------|
 | `FrameAdd(name, id, value, data[])` | Agent — OnTester | `bool` |

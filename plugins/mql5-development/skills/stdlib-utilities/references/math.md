@@ -2,6 +2,8 @@
 
 ## Trigonometric, Exponential, and Logarithmic Functions
 
+> Canonical MQL5 reference: [MathSin](https://www.mql5.com/en/docs/math/mathsin) · [MathCos](https://www.mql5.com/en/docs/math/mathcos) · [MathTan](https://www.mql5.com/en/docs/math/mathtan) · [MathSinh](https://www.mql5.com/en/docs/math/mathsinh)
+
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
 | `MathSin`, `MathCos`, `MathTan`, `MathAsin`, `MathAcos`, `MathAtan`, `MathAtan2` | Trigonometric functions | Inputs and outputs use radians |
@@ -9,6 +11,8 @@
 | `MathExp`, `MathLog`, `MathLog10`, `MathLog1p`, `MathPow`, `MathSqrt` | Exponential and logarithmic operations | Check numeric validity when domain assumptions can fail |
 
 ## Rounding, Classification, Randomness, and Utility Math
+
+> Canonical MQL5 reference: [MathAbs](https://www.mql5.com/en/docs/math/mathabs) · [MathMin](https://www.mql5.com/en/docs/math/mathmin) · [MathMax](https://www.mql5.com/en/docs/math/mathmax) · [MathFloor](https://www.mql5.com/en/docs/math/mathfloor)
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
