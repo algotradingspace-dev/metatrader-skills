@@ -93,7 +93,7 @@ void OnTradeTransaction(
 }
 ```
 
-**Critical: to read deal/order data after a `DEAL_ADD` transaction, call `HistorySelect()` first:**
+**Critical: to read deal/order data after a `TRADE_TRANSACTION_DEAL_ADD` transaction, call `HistorySelect()` first:**
 ```mql5
 case TRADE_TRANSACTION_DEAL_ADD: {
    HistorySelect(0, TimeCurrent());

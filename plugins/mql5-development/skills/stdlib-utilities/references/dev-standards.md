@@ -39,7 +39,7 @@ input int      InpTrailingStep  = 10;     // Trailing step (points)
 
 1. **Magic number support** — isolate trades from other EAs
 2. **Error handling** — handle `OrderSend` failures, reconnection, invalid stops
-3. **Lot size validation** — respect `MODE_MINLOT`, `MODE_MAXLOT`, `MODE_LOTSTEP`, account leverage
+3. **Lot size validation** — respect `SYMBOL_VOLUME_MIN`, `SYMBOL_VOLUME_MAX`, `SYMBOL_VOLUME_STEP`, account leverage
 4. **Spread filter** — skip entries during abnormal spreads
 5. **Multi-timeframe awareness** — if strategy requires it, sync across timeframes
 6. **Logging** — `Print()` key events for journal debugging
