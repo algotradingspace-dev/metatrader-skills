@@ -7,6 +7,8 @@ signal, money, trade, and trailing modules together, exposes all terminal-event
 entry points, and owns the high-level processing loop. Trailing rules are
 delegated to `CExpertTrailing`; those delegated methods are labelled below.
 
+> Canonical MQL5 reference: [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit) · [InitSignal](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertinitsignal) · [InitTrailing](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertinittrailing) · [InitMoney](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertinitmoney)
+
 | Method | Return type | Purpose | Usage note |
 |--------|------------|---------|------------|
 | `Init` | `bool` | Initialises the expert instance | Override in the derived expert and return `false` to abort `OnInit()` |

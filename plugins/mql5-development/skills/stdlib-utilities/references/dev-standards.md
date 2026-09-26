@@ -86,6 +86,8 @@ MQL5/
 
 ## Key Differences: MQL4 vs MQL5
 
+> Canonical MQL5 reference: [OnTick](https://www.mql5.com/en/docs/event_handlers/ontick) · [OnTimer](https://www.mql5.com/en/docs/event_handlers/ontimer) · [OnTrade](https://www.mql5.com/en/docs/event_handlers/ontrade) · [OrderSend](https://www.mql5.com/en/docs/trading/ordersend)
+
 | Feature | MQL4 | MQL5 |
 |---------|------|------|
 | Order model | Direct execution | Positions + deals + orders |

@@ -10,6 +10,8 @@
 
 ## ENUM_UNINIT_REASON — `UninitializeReason()` in `OnDeinit`
 
+> Canonical MQL5 reference: [REASON_PROGRAM](https://www.mql5.com/en/docs/constants/namedconstants/uninit) · [ExpertRemove](https://www.mql5.com/en/docs/common/expertremove) · [REASON_INITFAILED](https://www.mql5.com/en/docs/constants/namedconstants/uninit#reason_initfailed) · [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit)
+
 | Code | Constant | Description |
 |------|----------|-------------|
 | 0 | `REASON_PROGRAM` | EA called `ExpertRemove()` |
@@ -46,6 +48,8 @@
 | `M_SQRT2` | v2 = 1.41421 | `M_LOG10E` | log10(e) = 0.43429 |
 
 ## Other Useful Constants
+
+> Canonical MQL5 reference: [EMPTY_VALUE](https://www.mql5.com/en/docs/constants/namedconstants/otherconstants) · [DBL_MAX](https://www.mql5.com/en/docs/constants/namedconstants/typeconstants)
 
 | Constant | Value | Description |
 |----------|-------|-------------|

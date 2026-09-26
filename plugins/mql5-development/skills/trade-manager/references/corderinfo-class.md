@@ -4,6 +4,8 @@
 
 `COrderInfo` is the read-only wrapper for active pending orders.
 
+> Canonical MQL5 reference: [TimeSetup](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/chistoryorderinfo/chistoryorderinfotimesetup) · [TimeSetupMsc](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/chistoryorderinfo/chistoryorderinfotimesetupmsc) · [OrderType](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/chistoryorderinfo/chistoryorderinfoordertype) · [ENUM_ORDER_TYPE](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_type)
+
 | Method | Return Type | Brief purpose | One-line usage note |
 |--------|------------|---------------|---------------------|
 | `Ticket` | `ulong` | Get active order ticket | Select an order first, then read its ticket for downstream actions |
@@ -45,6 +47,8 @@
 
 `CHistoryOrderInfo` is the history counterpart to `COrderInfo` for completed,
 expired, or cancelled orders.
+
+> Canonical MQL5 reference: [HistorySelect](https://www.mql5.com/en/docs/trading/historyselect) · [TimeSetup](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/chistoryorderinfo/chistoryorderinfotimesetup) · [TimeSetupMsc](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/chistoryorderinfo/chistoryorderinfotimesetupmsc) · [OrderType](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/chistoryorderinfo/chistoryorderinfoordertype)
 
 | Method | Return Type | Brief purpose | One-line usage note |
 |--------|------------|---------------|---------------------|

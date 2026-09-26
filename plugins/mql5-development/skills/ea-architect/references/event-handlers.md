@@ -2,6 +2,8 @@
 
 ## Handler Signatures and Queue Deduplication
 
+> Canonical MQL5 reference: [OnStart](https://www.mql5.com/en/docs/event_handlers/onstart) · [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit) · [OnDeinit](https://www.mql5.com/en/docs/event_handlers/ondeinit) · [OnTick](https://www.mql5.com/en/docs/event_handlers/ontick)
+
 | Handler | Program type | Signature | Fires when |
 |---------|-------------|-----------|------------|
 | `OnStart` | Script, Service | `int OnStart(void)` | Once at launch |
@@ -20,6 +22,8 @@
 | `OnTesterPass` | EA only | `void OnTesterPass(void)` | Each frame from test agent arrives |
 
 **Queue deduplication rules (critical for performance):**
+
+> Canonical MQL5 reference: [NewTick](https://www.mql5.com/en/docs/runtime/event_fire#newtick) · [ChartEvent](https://www.mql5.com/en/docs/standardlibrary/controls/cappdialog/cappdialogchartevent) · [BookEvent](https://www.mql5.com/en/docs/runtime/event_fire#bookevent)
 
 | Event | Dedup rule |
 |-------|------------|
@@ -49,6 +53,8 @@
 ---
 
 ## OnDeinit Reason Codes
+
+> Canonical MQL5 reference: [REASON_PROGRAM](https://www.mql5.com/en/docs/constants/namedconstants/uninit) · [ExpertRemove](https://www.mql5.com/en/docs/common/expertremove) · [REASON_INITFAILED](https://www.mql5.com/en/docs/constants/namedconstants/uninit#reason_initfailed) · [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit)
 
 | Constant | Value | Meaning |
 |----------|-------|---------|

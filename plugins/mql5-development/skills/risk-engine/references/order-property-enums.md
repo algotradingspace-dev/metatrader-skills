@@ -2,6 +2,8 @@
 
 ## ENUM_ORDER_PROPERTY_INTEGER — `OrderGetInteger()` / `HistoryOrderGetInteger()`
 
+> Canonical MQL5 reference: [ORDER_TICKET](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_property_integer) · [ENUM_ORDER_TYPE](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_type) · [ENUM_ORDER_STATE](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_state) · [ORDER_TYPE_FILLING](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties)
+
 | Identifier | Description | Type |
 |------------|-------------|------|
 | `ORDER_TICKET` | Unique order ticket | long |
@@ -51,6 +53,8 @@
 
 ## ENUM_ORDER_STATE
 
+> Canonical MQL5 reference: [ORDER_STATE_STARTED](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_state)
+
 | Value | Description |
 |-------|-------------|
 | `ORDER_STATE_STARTED` | Checked, not yet accepted |
@@ -65,6 +69,8 @@
 | `ORDER_STATE_REQUEST_CANCEL` | Being deleted |
 
 ## ENUM_ORDER_TYPE_FILLING
+
+> Canonical MQL5 reference: [ORDER_FILLING_FOK](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_type_filling)
 
 | Value | Description | Notes |
 |-------|-------------|-------|
@@ -85,6 +91,8 @@
 > Always use `ORDER_FILLING_RETURN` for pending orders regardless of execution mode.
 
 ## ENUM_ORDER_TYPE_TIME
+
+> Canonical MQL5 reference: [ORDER_TIME_GTC](https://www.mql5.com/en/docs/constants/tradingconstants/orderproperties#enum_order_type_time)
 
 | Value | Description |
 |-------|-------------|

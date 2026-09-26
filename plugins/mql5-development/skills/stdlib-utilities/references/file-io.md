@@ -13,6 +13,8 @@ common-files folder.
 
 ## File Handle Lifecycle
 
+> Canonical MQL5 reference: [FileOpen](https://www.mql5.com/en/docs/files/fileopen) · [FileClose](https://www.mql5.com/en/docs/files/fileclose) · [FileGetInteger](https://www.mql5.com/en/docs/files/filegetinteger) · [FileSize](https://www.mql5.com/en/docs/files/filesize)
+
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
 | `FileOpen`, `FileClose` | File-handle lifecycle | Opening a file for writing also creates missing subfolders in the specified sandbox path |
@@ -21,6 +23,8 @@ common-files folder.
 | `TerminalInfoString(TERMINAL_DATA_PATH / TERMINAL_COMMONDATA_PATH)` | Resolve the actual sandbox roots | Use when you need to coordinate terminal-local and common-file locations |
 
 ## Text, Binary, Array, and Struct Read/Write
+
+> Canonical MQL5 reference: [FileReadBool](https://www.mql5.com/en/docs/files/filereadbool) · [FileReadDatetime](https://www.mql5.com/en/docs/files/filereaddatetime) · [FileReadNumber](https://www.mql5.com/en/docs/files/filereadnumber) · [FileReadString](https://www.mql5.com/en/docs/files/filereadstring)
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
@@ -36,6 +40,8 @@ common-files folder.
 - Bound array size and file mode determine whether bulk operations succeed cleanly
 
 ## Search, Copy, Move, and Folder Maintenance
+
+> Canonical MQL5 reference: [FileFindFirst](https://www.mql5.com/en/docs/files/filefindfirst) · [FileFindNext](https://www.mql5.com/en/docs/files/filefindnext) · [FileFindClose](https://www.mql5.com/en/docs/files/filefindclose) · [FileCopy](https://www.mql5.com/en/docs/files/filecopy)
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|

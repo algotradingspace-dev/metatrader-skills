@@ -4,6 +4,8 @@ All follow the same handle pattern. The main implementation decision is
 whether you need a single oscillator line or multiple synchronised buffers
 for crossovers.
 
+> Canonical MQL5 reference: [iRSI](https://www.mql5.com/en/docs/indicators/irsi) · [iCCI](https://www.mql5.com/en/docs/indicators/icci) · [iMomentum](https://www.mql5.com/en/docs/indicators/imomentum) · [iWPR](https://www.mql5.com/en/docs/indicators/iwpr)
+
 | Indicator | Signature skeleton | Buffers | Implementation note |
 |-----------|-------------------|---------|---------------------|
 | `iRSI` | `iRSI(symbol, period, ma_period, applied_price)` | `0` | Basic one-buffer momentum/mean-reversion read |

@@ -1,5 +1,7 @@
 # Volume and Money-Flow Indicator Handles
 
+> Canonical MQL5 reference: [iAD](https://www.mql5.com/en/docs/indicators/iad) · [iMFI](https://www.mql5.com/en/docs/indicators/imfi) · [iOBV](https://www.mql5.com/en/docs/indicators/iobv) · [iChaikin](https://www.mql5.com/en/docs/indicators/ichaikin)
+
 | Indicator | Signature skeleton | Buffers | Implementation note |
 |-----------|-------------------|---------|---------------------|
 | `iAD` | `iAD(symbol, period, applied_volume)` | `0` | Accumulation/Distribution line |

@@ -7,6 +7,8 @@ from chart constants (see the `constants` skill).
 
 ## Chart Lifecycle and Navigation
 
+> Canonical MQL5 reference: [ChartOpen](https://www.mql5.com/en/docs/chart_operations/chartopen) · [CHARTS_MAX](https://www.mql5.com/en/docs/constants/namedconstants/otherconstants) · [ChartClose](https://www.mql5.com/en/docs/chart_operations/chartclose) · [ChartFirst](https://www.mql5.com/en/docs/chart_operations/chartfirst)
+
 | Function | Signature | Returns | Purpose |
 |----------|-----------|---------|---------|
 | `ChartOpen` | `ChartOpen(string symbol, ENUM_TIMEFRAMES period)` | `long` | Opens a new chart; returns chart ID or 0 on failure. Max open charts = `CHARTS_MAX` (100). |
@@ -24,6 +26,8 @@ from chart constants (see the `constants` skill).
 
 ## Property Getters and Setters
 
+> Canonical MQL5 reference: [ChartGetInteger](https://www.mql5.com/en/docs/chart_operations/chartgetinteger) · [ChartGetDouble](https://www.mql5.com/en/docs/chart_operations/chartgetdouble) · [ChartGetString](https://www.mql5.com/en/docs/chart_operations/chartgetstring) · [ChartSetInteger](https://www.mql5.com/en/docs/chart_operations/chartsetinteger)
+
 | Function | Purpose |
 |----------|---------|
 | `ChartGetInteger(chart_id, ENUM_CHART_PROPERTY_INTEGER, sub_window)` | Read integer/bool/datetime property |
@@ -40,6 +44,8 @@ before reading.
 
 ## Template and Screenshot
 
+> Canonical MQL5 reference: [ChartApplyTemplate](https://www.mql5.com/en/docs/chart_operations/chartapplytemplate) · [ChartSaveTemplate](https://www.mql5.com/en/docs/chart_operations/chartsavetemplate) · [ChartScreenShot](https://www.mql5.com/en/docs/chart_operations/chartscreenshot)
+
 | Function | Signature | Purpose |
 |----------|-----------|---------|
 | `ChartApplyTemplate` | `ChartApplyTemplate(long chart_id, string filename)` | Apply a `.tpl` template file to chart |
@@ -49,6 +55,8 @@ before reading.
 ---
 
 ## Indicator Attachment
+
+> Canonical MQL5 reference: [ChartIndicatorAdd](https://www.mql5.com/en/docs/chart_operations/chartindicatoradd) · [ChartIndicatorDelete](https://www.mql5.com/en/docs/chart_operations/chartindicatordelete) · [ChartIndicatorGet](https://www.mql5.com/en/docs/chart_operations/chartindicatorget) · [ChartIndicatorName](https://www.mql5.com/en/docs/chart_operations/chartindicatorname)
 
 | Function | Signature | Purpose |
 |----------|-----------|---------|
@@ -61,6 +69,8 @@ before reading.
 ---
 
 ## Coordinate Conversion and Drop Positions
+
+> Canonical MQL5 reference: [ChartTimePriceToXY](https://www.mql5.com/en/docs/chart_operations/charttimepricetoxy) · [ChartXYToTimePrice](https://www.mql5.com/en/docs/chart_operations/chartxytotimeprice) · [ChartXOnDropped](https://www.mql5.com/en/docs/chart_operations/chartxondropped) · [ChartYOnDropped](https://www.mql5.com/en/docs/chart_operations/chartyondropped)
 
 | Function | Purpose |
 |----------|---------|

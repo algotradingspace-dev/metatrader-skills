@@ -7,6 +7,8 @@ for entry, exit, reverse, and pending-order logic. Derived signal classes
 override its checks, vote-strength methods, and order-parameter hooks while
 the owning `CExpert` handles execution.
 
+> Canonical MQL5 reference: [InitIndicators](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertinitindicators) · [ValidationSettings](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertvalidationsettings) · [AddFilter](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpertsignal/cexpertsignaladdfilter) · [BasePrice](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpertsignal/cexpertsignalbaseprice)
+
 | Method | Return type | Purpose | Usage note |
 |--------|------------|---------|------------|
 | `InitIndicators` | `bool` | Initialises all necessary indicators and timeseries | Create signal handles here after the base series contract is ready |

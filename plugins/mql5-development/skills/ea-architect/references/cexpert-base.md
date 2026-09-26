@@ -7,6 +7,8 @@
 magic routing, series pointers, and the staged initialisation contract
 that derived expert modules inherit.
 
+> Canonical MQL5 reference: [ValidationSettings](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertvalidationsettings) · [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit) · [SetPriceSeries](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpertbase/cexpertbasesetpriceseries) · [SetOtherSeries](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpertbase/cexpertbasesetotherseries)
+
 | Method | Return type | Purpose | Usage note |
 |--------|------------|---------|------------|
 | `Init` | `bool` | Initialises the object | Call once from the owning expert before any derived module reads series data |

@@ -11,6 +11,8 @@ through `IndicatorSet*()` and `PlotIndexSet*()`.
 
 ## Core Property and Binding Functions
 
+> Canonical MQL5 reference: [SetIndexBuffer](https://www.mql5.com/en/docs/customind/setindexbuffer) · [ArraySetAsSeries](https://www.mql5.com/en/docs/array/arraysetasseries) · [IndicatorSetDouble](https://www.mql5.com/en/docs/customind/indicatorsetdouble) · [IndicatorSetInteger](https://www.mql5.com/en/docs/customind/indicatorsetinteger)
+
 | Function | Purpose | Usage note |
 |----------|---------|------------|
 | `SetIndexBuffer(index, buffer, data_type)` | Binds a dynamic `double` array to an indicator buffer slot | Binding resets array indexing to common-array mode, so call `ArraySetAsSeries()` again afterward if you need timeseries access |
@@ -40,6 +42,8 @@ through `IndicatorSet*()` and `PlotIndexSet*()`.
 ---
 
 ## Draw-Type Families
+
+> Canonical MQL5 reference: [DRAW_NONE](https://www.mql5.com/en/docs/customind/indicators_examples/draw_none) · [DRAW_LINE](https://www.mql5.com/en/docs/customind/indicators_examples/draw_line) · [DRAW_SECTION](https://www.mql5.com/en/docs/customind/indicators_examples/draw_section) · [DRAW_ARROW](https://www.mql5.com/en/docs/customind/indicators_examples/draw_arrow)
 
 | Family | Draw types | Architectural meaning |
 |--------|-----------|----------------------|

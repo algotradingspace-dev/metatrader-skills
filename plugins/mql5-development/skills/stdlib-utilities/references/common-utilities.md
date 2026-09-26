@@ -2,6 +2,8 @@
 
 ## Journal Output, Alerts, and Execution Control
 
+> Canonical MQL5 reference: [PrintFormat](https://www.mql5.com/en/docs/common/printformat) · [MessageBox](https://www.mql5.com/en/docs/common/messagebox) · [PlaySound](https://www.mql5.com/en/docs/common/playsound) · [ExpertRemove](https://www.mql5.com/en/docs/common/expertremove)
+
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
 | `Print`, `PrintFormat`, `Comment` | Journal and chart-surface output | Use `PrintFormat` for structured logs and `Comment` only for transient chart overlays |
@@ -10,6 +12,8 @@
 | `ResetLastError`, `SetUserError` | Error-state management | Use to bracket risky calls or report user-domain failures consistently |
 
 ## Tester, Resources, Pointers, and Miscellaneous Runtime Utilities
+
+> Canonical MQL5 reference: [TesterDeposit](https://www.mql5.com/en/docs/common/testerdeposit) · [TesterWithdrawal](https://www.mql5.com/en/docs/common/testerwithdrawal) · [TesterHideIndicators](https://www.mql5.com/en/docs/common/testerhideindicators) · [TesterStatistics](https://www.mql5.com/en/docs/common/testerstatistics)
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|

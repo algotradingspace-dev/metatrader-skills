@@ -1,5 +1,7 @@
 # Bill Williams and Custom Indicator Handles
 
+> Canonical MQL5 reference: [iAC](https://www.mql5.com/en/docs/indicators/iac) · [iAO](https://www.mql5.com/en/docs/indicators/iao) · [iBWMFI](https://www.mql5.com/en/docs/indicators/ibwmfi) · [iAlligator](https://www.mql5.com/en/docs/indicators/ialligator)
+
 | Indicator | Signature skeleton | Buffers | Implementation note |
 |-----------|-------------------|---------|---------------------|
 | `iAC` | `iAC(symbol, period)` | `0` | Accelerator Oscillator |

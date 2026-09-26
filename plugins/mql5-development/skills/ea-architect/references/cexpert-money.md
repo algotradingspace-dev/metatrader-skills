@@ -7,6 +7,8 @@ for lot sizes and close decisions. Derived money-management classes decide
 how large to open, how large to reverse, and whether the current position
 should be closed under the selected risk policy.
 
+> Canonical MQL5 reference: [ValidationSettings](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertvalidationsettings) · [CheckOpenLong](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertcheckopenlong) · [CheckOpenShort](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertcheckopenshort) · [CheckReverse](https://www.mql5.com/en/docs/standardlibrary/expertclasses/expertbaseclasses/cexpert/cexpertcheckreverse)
+
 | Method | Return type | Purpose | Usage note |
 |--------|------------|---------|------------|
 | `Percent` | `void` | Sets the value of "Risk percent" parameter | Configure the risk budget before asking for any trade volume |

@@ -2,6 +2,8 @@
 
 ## ENUM_ACCOUNT_INFO_INTEGER — `AccountInfoInteger(id)`
 
+> Canonical MQL5 reference: [ENUM_ACCOUNT_TRADE_MODE](https://www.mql5.com/en/docs/constants/environment_state/accountinformation#enum_account_trade_mode) · [ENUM_ACCOUNT_STOPOUT_MODE](https://www.mql5.com/en/docs/constants/environment_state/accountinformation#enum_account_stopout_mode) · [ACCOUNT_MARGIN_MODE](https://www.mql5.com/en/docs/constants/environment_state/accountinformation#enum_account_info_integer)
+
 | Identifier | Description | Type |
 |------------|-------------|------|
 | `ACCOUNT_LOGIN` | Account number | long |
@@ -58,6 +60,8 @@
 
 ## ENUM_ACCOUNT_MARGIN_MODE
 
+> Canonical MQL5 reference: [ACCOUNT_MARGIN_MODE_RETAIL_NETTING](https://www.mql5.com/en/docs/constants/environment_state/accountinformation#enum_account_info_integer)
+
 | Value | Description |
 |-------|-------------|
 | `ACCOUNT_MARGIN_MODE_RETAIL_NETTING` | Netting (one position per symbol) |
@@ -67,6 +71,8 @@
 ---
 
 ## ENUM_TERMINAL_INFO_INTEGER — Key Identifiers (via `TerminalInfoInteger(id)`)
+
+> Canonical MQL5 reference: [TERMINAL_BUILD](https://www.mql5.com/en/docs/constants/environment_state/terminalstatus#enum_terminal_info_integer) · [TERMINAL_MAXBARS](https://www.mql5.com/en/docs/constants/environment_state/terminalstatus)
 
 | Identifier | Description |
 |------------|-------------|

@@ -6,6 +6,8 @@ differ materially in live systems.
 
 ## Current Time Sources
 
+> Canonical MQL5 reference: [TimeCurrent](https://www.mql5.com/en/docs/dateandtime/timecurrent) · [TimeTradeServer](https://www.mql5.com/en/docs/dateandtime/timetradeserver) · [TimeLocal](https://www.mql5.com/en/docs/dateandtime/timelocal) · [TimeGMT](https://www.mql5.com/en/docs/dateandtime/timegmt)
+
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
 | `TimeCurrent`, `TimeTradeServer`, `TimeLocal`, `TimeGMT` | Current clock sources | Use trade-server time for broker-aligned scheduling and local time only for workstation-level diagnostics |

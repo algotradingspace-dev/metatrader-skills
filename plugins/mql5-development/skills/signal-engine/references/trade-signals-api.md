@@ -6,6 +6,8 @@ programmatically from an EA or script.
 
 ## Signal Base — Enumeration and Property Read
 
+> Canonical MQL5 reference: [SignalBaseTotal](https://www.mql5.com/en/docs/signals/signalbasetotal) · [SignalBaseSelect](https://www.mql5.com/en/docs/signals/signalbaseselect) · [SignalBaseGetDouble](https://www.mql5.com/en/docs/signals/signalbasegetdouble) · [SignalBaseGetInteger](https://www.mql5.com/en/docs/signals/signalbasegetinteger)
+
 | Function | Signature | Returns | Purpose |
 |----------|-----------|---------|---------|
 | `SignalBaseTotal` | `SignalBaseTotal()` | `int` | Total signals available in terminal |
@@ -18,6 +20,8 @@ programmatically from an EA or script.
 the implicit selection context.
 
 ## Signal Info — Copy Settings Read/Write
+
+> Canonical MQL5 reference: [SignalInfoGetDouble](https://www.mql5.com/en/docs/signals/signalinfogetdouble) · [SignalInfoGetInteger](https://www.mql5.com/en/docs/signals/signalinfogetinteger) · [SignalInfoGetString](https://www.mql5.com/en/docs/signals/signalinfogetstring) · [SignalInfoSetDouble](https://www.mql5.com/en/docs/signals/signalinfosetdouble)
 
 | Function | Signature | Returns | Purpose |
 |----------|-----------|---------|---------|

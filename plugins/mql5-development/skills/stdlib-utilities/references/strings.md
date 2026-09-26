@@ -2,6 +2,8 @@
 
 ## String Construction and Character Access
 
+> Canonical MQL5 reference: [StringAdd](https://www.mql5.com/en/docs/strings/stringadd) · [StringConcatenate](https://www.mql5.com/en/docs/strings/stringconcatenate) · [StringInit](https://www.mql5.com/en/docs/strings/stringinit) · [StringFill](https://www.mql5.com/en/docs/strings/stringfill)
+
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
 | `StringAdd`, `StringConcatenate`, `StringInit`, `StringFill` | Building or padding strings | Use for deterministic message construction and fixed-width formatting |
@@ -10,6 +12,8 @@
 | `StringCompare`, `StringToLower`, `StringToUpper` | Comparison and case normalisation | Normalise casing before symbolically comparing command tokens or config keys |
 
 ## Search, Replace, Split, and Trim
+
+> Canonical MQL5 reference: [StringFind](https://www.mql5.com/en/docs/strings/stringfind) · [StringReplace](https://www.mql5.com/en/docs/strings/stringreplace) · [StringSplit](https://www.mql5.com/en/docs/strings/stringsplit) · [StringTrimLeft](https://www.mql5.com/en/docs/strings/stringtrimleft)
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|

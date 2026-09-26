@@ -6,6 +6,8 @@
 quote refresh, quantisation, trade rules, margin rules, sessions, and
 instrument descriptors.
 
+> Canonical MQL5 reference: [RefreshRates](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/csymbolinfo/csymbolinforefreshrates) · [IsSynchronized](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/csymbolinfo/csymbolinfoissynchronized) · [VolumeHigh](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/csymbolinfo/csymbolinfovolumehigh) · [VolumeLow](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/csymbolinfo/csymbolinfovolumelow)
+
 | Method | Return Type | Brief purpose | One-line usage note |
 |--------|------------|---------------|---------------------|
 | `Refresh` | `void` | Refresh symbol property cache | Call before reading stale-sensitive metadata in long-lived objects |
@@ -93,6 +95,8 @@ instrument descriptors.
 
 `CAccountInfo` is the account-state wrapper for permissions, balances, margin
 health, and pre-trade account-level checks.
+
+> Canonical MQL5 reference: [TradeMode](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/caccountinfo/caccountinfotrademode) · [ENUM_ACCOUNT_TRADE_MODE](https://www.mql5.com/en/docs/constants/environment_state/accountinformation#enum_account_trade_mode) · [TradeModeDescription](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/caccountinfo/caccountinfotrademodedescription) · [StopoutMode](https://www.mql5.com/en/docs/standardlibrary/tradeclasses/caccountinfo/caccountinfostopoutmode)
 
 | Method | Return Type | Brief purpose | One-line usage note |
 |--------|------------|---------------|---------------------|

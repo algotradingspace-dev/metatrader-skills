@@ -2,6 +2,8 @@
 
 ## ENUM_DEAL_PROPERTY_INTEGER — `HistoryDealGetInteger()`
 
+> Canonical MQL5 reference: [DEAL_ORDER](https://www.mql5.com/en/docs/constants/tradingconstants/dealproperties#enum_deal_property_integer) · [ENUM_DEAL_TYPE](https://www.mql5.com/en/docs/constants/tradingconstants/dealproperties#enum_deal_type) · [ENUM_DEAL_ENTRY](https://www.mql5.com/en/docs/constants/tradingconstants/dealproperties#enum_deal_entry) · [ENUM_DEAL_REASON](https://www.mql5.com/en/docs/constants/tradingconstants/dealproperties#enum_deal_reason)
+
 | Identifier | Description | Type |
 |------------|-------------|------|
 | `DEAL_TICKET` | Unique deal ticket | long |
