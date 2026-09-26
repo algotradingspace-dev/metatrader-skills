@@ -14,7 +14,8 @@ lifecycle from architecture wiring to trade management.
 ## Usage
 
 ```bash
-claude plugin install ./plugins/mql5-development
+claude plugin marketplace add algotradingspace-dev/metatrader-skills   # once
+claude plugin install mql5-development@metatrader-skills
 ```
 
 Then reference skills by name in your prompts (e.g. "use mql5-risk-engine").
