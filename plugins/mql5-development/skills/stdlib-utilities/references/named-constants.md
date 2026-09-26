@@ -8,7 +8,7 @@
 | `POINTER_DYNAMIC` | Created by `new()` — call `delete()` when done |
 | `POINTER_AUTOMATIC` | Auto-managed by MQL5 — do NOT call `delete()` |
 
-## ENUM_UNINIT_REASON — `UninitializeReason()` in `OnDeinit`
+## REASON_* Uninit Codes — `UninitializeReason()` in `OnDeinit`
 
 > Canonical MQL5 reference: [REASON_PROGRAM](https://www.mql5.com/en/docs/constants/namedconstants/uninit) · [ExpertRemove](https://www.mql5.com/en/docs/common/expertremove) · [REASON_INITFAILED](https://www.mql5.com/en/docs/constants/namedconstants/uninit#reason_initfailed) · [OnInit](https://www.mql5.com/en/docs/event_handlers/oninit)
 

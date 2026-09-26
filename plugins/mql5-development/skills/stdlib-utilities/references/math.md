@@ -6,7 +6,7 @@
 
 | Function group | What it covers | Usage note |
 |----------------|----------------|------------|
-| `MathSin`, `MathCos`, `MathTan`, `MathAsin`, `MathAcos`, `MathAtan`, `MathAtan2` | Trigonometric functions | Inputs and outputs use radians |
+| `MathSin`, `MathCos`, `MathTan`, `MathArcsin`, `MathArccos`, `MathArctan`, `MathArctan2` | Trigonometric functions | Inputs and outputs use radians |
 | `MathSinh`, `MathCosh`, `MathTanh` | Hyperbolic functions | These are specialised and should usually sit behind a named helper with domain context |
 | `MathExp`, `MathLog`, `MathLog10`, `MathLog1p`, `MathPow`, `MathSqrt` | Exponential and logarithmic operations | Check numeric validity when domain assumptions can fail |
 

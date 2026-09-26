@@ -256,4 +256,4 @@ STradeSignal GetEMAPullbackSignal(ENUM_REGIME regime) {
 | `references/indicators-oscillators.md` | `iRSI`, `iMACD`, `iStochastic`, `iCCI`, `iMomentum`, `iRVI`, `iOsMA`, `iBullsPower`, `iBearsPower` — signatures and buffer maps | Oscillator-based divergence, crossover, or threshold signals |
 | `references/indicators-volume.md` | `iAD`, `iMFI`, `iOBV`, `iChaikin`, `iForce`, `iVolumes` — signatures and buffer maps | Volume/money-flow confirmation signals |
 | `references/indicators-bill-williams.md` | `iAlligator`, `iFractals`, `iGator`, `iAO`, `iAC`, `iBWMFI`, `iCustom` — signatures, buffer maps, shift rules | Bill Williams system or custom indicator integration |
-| `references/trade-signals-api.md` | `SignalBaseTotal/Select/Get*`, `SignalInfoGet/Set*`, `SignalSubscribe/Unsubscribe` | Programmatic signal subscription management |
+| `references/trade-signals-api.md` | `SignalBaseTotal`, `SignalBaseSelect`, `SignalBaseGetDouble`/`Integer`/`String`, `SignalInfoGetDouble`/`Integer`/`String`, `SignalInfoSetDouble`/`Integer`, `SignalSubscribe/Unsubscribe` | Programmatic signal subscription management |
