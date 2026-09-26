@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+- **mql5-docs-lookup** skill in `mql5-development` — how to query the official
+  MQL5 reference through the Algo Trading Space MCP tools
+  (`platform_search_mql5_docs`, `platform_resolve_mql5_symbol`): when to resolve
+  an identifier versus search a phrase, how to cite the canonical `mql5.com` URL,
+  how to read each tool error code, and how to answer from the local references
+  when the service is unavailable.
+
 ## [0.4.0] - 2026-08-19
 
 ### Added
