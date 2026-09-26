@@ -12,7 +12,8 @@ and journal monitoring.
 ## Usage
 
 ```bash
-claude plugin install ./plugins/metatrader-platform
+claude plugin marketplace add algotradingspace-dev/metatrader-skills   # once
+claude plugin install metatrader-platform@metatrader-skills
 ```
 
 Then reference skills by name in your prompts (e.g. "use metatrader-python").

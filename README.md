@@ -7,18 +7,56 @@ and risk management to platform automation and backtest analytics.
 
 ## Quick start
 
-```bash
-# Install all plugins
-claude plugin install . --all
+Add the marketplace once, then install plugins from it. `claude plugin install`
+takes one plugin at a time, written `<plugin>@metatrader-skills`.
 
-# Or install individual plugins
-claude plugin install ./plugins/mql5-development
-claude plugin install ./plugins/mql-developer
-claude plugin install ./plugins/metatrader-platform
-claude plugin install ./plugins/metatrader-research
-claude plugin install ./plugins/trading-fundamentals
-claude plugin install ./plugins/trading-web-systems
+```bash
+# 1. Add the marketplace
+claude plugin marketplace add algotradingspace-dev/metatrader-skills
+
+# 2. Install the plugins you want
+claude plugin install mql5-development@metatrader-skills
+claude plugin install mql-developer@metatrader-skills
+claude plugin install metatrader-platform@metatrader-skills
+claude plugin install metatrader-research@metatrader-skills
+claude plugin install mt5-httpapi@metatrader-skills
+claude plugin install trading-fundamentals@metatrader-skills
+claude plugin install trading-web-systems@metatrader-skills
 ```
+
+To install all of them in one go:
+
+```bash
+# macOS / Linux
+for p in mql5-development mql-developer metatrader-platform metatrader-research \
+         mt5-httpapi trading-fundamentals trading-web-systems; do
+  claude plugin install "$p@metatrader-skills"
+done
+```
+
+```bat
+:: Windows Command Prompt (use %%p instead of %p inside a .bat file)
+for %p in (mql5-development mql-developer metatrader-platform metatrader-research mt5-httpapi trading-fundamentals trading-web-systems) do claude plugin install %p@metatrader-skills
+```
+
+```powershell
+# Windows PowerShell
+"mql5-development","mql-developer","metatrader-platform","metatrader-research","mt5-httpapi","trading-fundamentals","trading-web-systems" | ForEach-Object { claude plugin install "$_@metatrader-skills" }
+```
+
+Notes:
+
+- Add `--scope user` (every project), `--scope project` or `--scope local` to
+  choose where a plugin is installed.
+- `mt5-httpapi` installs but declares settings it needs, one of them required.
+  Set them with `/plugin configure mt5-httpapi@metatrader-skills` inside Claude
+  Code, or pass `--config KEY=VALUE` to `claude plugin install`.
+- `claude plugin list` shows what is installed. If a marketplace ever reports
+  "already added", run `claude plugin marketplace list` to see what is really
+  registered, and `claude plugin marketplace update metatrader-skills` to refresh it.
+- Working from a local checkout of this repository? Register it with
+  `claude plugin marketplace add ./` from the repo root, then use the same
+  `claude plugin install <plugin>@metatrader-skills` commands.
 
 ## Available plugins
 
